@@ -1,5 +1,5 @@
 # First stage is the build environment
-FROM sgrio/java-oracle:jdk_8 as builder
+FROM picoded/ubuntu-openjdk-8-jdk as builder
 MAINTAINER Jonathan Hart <jono@opennetworking.org>
 
 # Set the environment variables
